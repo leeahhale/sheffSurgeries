@@ -7,6 +7,7 @@ String appTime
 int appDuration
 String roomNumber
 
+
     static constraints = {
 
 appDate nullable: false, blank: false
