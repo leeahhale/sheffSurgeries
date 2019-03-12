@@ -2,5 +2,5 @@ package com.lhale
 
 class AppointmentController {
 
-    def index() { }
+  def scaffold= Appointment
 }

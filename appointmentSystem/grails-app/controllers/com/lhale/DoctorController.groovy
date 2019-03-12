@@ -2,5 +2,5 @@ package com.lhale
 
 class DoctorController {
 
-    def index() { }
+     def scaffold= Doctor
 }

@@ -2,5 +2,5 @@ package com.lhale
 
 class ReceptionistController {
 
-    def index() { }
+    def scaffold= Receptionist
 }
