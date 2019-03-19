@@ -142,6 +142,10 @@ def code=new Prescription (
 		patientPaying: 'Yes'
 		).save()
 
+
+
+
+
     }
     def destroy = {
     }

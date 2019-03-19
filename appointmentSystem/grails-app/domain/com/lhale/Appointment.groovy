@@ -6,6 +6,9 @@ Date appDate
 String appTime
 int appDuration
 String roomNumber
+Patient thepatient
+
+static hasMany=[surgery:Surgery]
 
 
     static constraints = {
