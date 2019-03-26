@@ -7,8 +7,8 @@ String qualification
 String position
 String doctorEmail
 String password
-int doctorOffice
-int doctorPhone
+String doctorOffice
+String doctorPhone
 String bio
 
 static hasMany=[appointments:Appointment,prescriptions:Prescription,nurses:Nurse,patients:Patient]

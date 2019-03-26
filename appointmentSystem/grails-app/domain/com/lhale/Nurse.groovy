@@ -6,10 +6,10 @@ String nurseName
 String qualification
 String nurseEmail
 String nurseOffice
-int nursePhone
+String nursePhone
 
 static hasMany=[doctors:Doctor]
-static belongsto = [Doctor,Patient]
+static belongsTo = [Doctor,Patient]
 
     static constraints = {
 

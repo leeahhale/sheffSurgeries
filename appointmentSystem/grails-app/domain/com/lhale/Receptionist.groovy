@@ -6,7 +6,7 @@ String recepName
 String recapEmail
 String recepUsername
 String recepPassword
-int recepPhone
+String recepPhone
 
     static constraints = {
 

@@ -8,7 +8,7 @@ String patientResidence
 Date patientDob
 String patientID
 Date dateRegistered
-int patientPhone
+String patientPhone
 Appointment theappointment
 
 static hasMany=[prescriptions:Prescription,surgerys:Surgery,doctors:Doctor]
