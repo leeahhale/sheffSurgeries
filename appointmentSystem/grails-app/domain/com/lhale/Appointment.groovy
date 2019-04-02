@@ -8,7 +8,8 @@ int appDuration
 String roomNumber
 Patient thepatient
 
-static hasMany=[surgery:Surgery]
+static hasMany=[surgerys:Surgery]
+static belongsTo=[Surgery]
 
 
 

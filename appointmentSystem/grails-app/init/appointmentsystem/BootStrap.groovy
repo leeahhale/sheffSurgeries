@@ -146,6 +146,39 @@ def nicole=new Patient (
 		theappointment: one
 		).save()
 
+nottingham.addToReceptionists(ben)
+sheffield.addToReceptionists(rob)
+nottingham.addToDoctors(sarah)
+sheffield.addToDoctors(janet)
+nottingham.addToNurses(susan)
+sheffield.addToNurses(chloe)
+nottingham.addToAppointments(one)
+sheffield.addToAppointments(two)
+nottingham.addToPatients(tom)
+sheffield.addToPatients(nicole)
+
+sarah.addToPrescriptions(code)
+janet.addToPrescriptions(para)
+sarah.addToAppointments(one)
+janet.addToAppointments(two)
+sarah.addToNurses(susan)
+janet.addToNurses(chloe)
+sarah.addToPatients(tom)
+janet.addToPatients(nicole)
+
+tom.addToPrescriptions(code)
+nicole.addToPrescriptions(para)
+tom.addToDoctors(sarah)
+nicole.addToDoctors(janet)
+tom.addToSurgerys(nottingham)
+nicole.addToSurgerys(sheffield)
+
+susan.addToDoctors(sarah)
+chloe.addToDoctors(janet)
+
+
+
+
 
     }
     def destroy = {

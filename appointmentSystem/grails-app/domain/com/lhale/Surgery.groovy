@@ -14,6 +14,7 @@ static hasMany=[receptionists:Receptionist,doctors:Doctor,nurses:Nurse,patients:
 
 
 
+
     static constraints = {
 name nullable: false, blank: false
 address nullable: false, blank: false 
