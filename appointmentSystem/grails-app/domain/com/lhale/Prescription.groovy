@@ -9,6 +9,11 @@ double totalCost
 Date dateIssued
 Boolean patientPaying
 
+String toString(){
+return pharmacyName
+}
+
+
     static constraints = {
 
 pharmacyName nullable: false, blank: false

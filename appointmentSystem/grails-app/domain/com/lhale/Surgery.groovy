@@ -12,6 +12,9 @@ String openingTime
 
 static hasMany=[receptionists:Receptionist,doctors:Doctor,nurses:Nurse,patients:Patient,appointments:Appointment]
 
+String toString(){
+return name
+}
 
 
 

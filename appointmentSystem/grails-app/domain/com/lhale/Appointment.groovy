@@ -11,6 +11,9 @@ Patient thepatient
 static hasMany=[surgerys:Surgery]
 static belongsTo=[Surgery]
 
+String toString(){
+return roomNumber
+}
 
 
     static constraints = {

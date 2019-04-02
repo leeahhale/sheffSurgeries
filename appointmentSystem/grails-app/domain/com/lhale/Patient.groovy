@@ -14,6 +14,10 @@ Appointment theappointment
 static hasMany=[prescriptions:Prescription,surgerys:Surgery,doctors:Doctor]
 static belongsTo=[Doctor,Surgery]
 
+String toString(){
+return patientName
+}
+
 
 
 

@@ -13,6 +13,10 @@ String bio
 
 static hasMany=[appointments:Appointment,prescriptions:Prescription,nurses:Nurse,patients:Patient]
 
+String toString(){
+return fullname
+}
+
 
     static constraints = {
 
