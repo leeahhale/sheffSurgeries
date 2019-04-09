@@ -6,7 +6,7 @@ class BootStrap {
 
 
 
-/*def sarah=new Doctor (
+def sarah=new Doctor (
 
 		fullname: 'Dr Sarah MacDonald',
 		qualification: 'MBChB(Sheffield)',
@@ -174,7 +174,7 @@ tom.addToSurgerys(nottingham)
 nicole.addToSurgerys(sheffield)
 
 susan.addToDoctors(sarah)
-chloe.addToDoctors(janet) */
+chloe.addToDoctors(janet) 
 
 
 
